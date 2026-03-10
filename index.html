@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Moldura Endometriose - Março</title>
+
+<style>
+
+body{
+font-family: Arial;
+text-align:center;
+background:#fff;
+padding:40px;
+}
+
+canvas{
+max-width:500px;
+margin-top:20px;
+}
+
+button{
+background:#f4c400;
+border:none;
+padding:12px 25px;
+font-size:16px;
+border-radius:20px;
+cursor:pointer;
+margin-top:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Março</h1>
+<h2>Consciencialização da Endometriose</h2>
+
+<p>Carrega a tua foto para aplicar a moldura.</p>
+
+<input type="file" id="upload">
+
+<br>
+
+<canvas id="canvas" width="1080" height="1080"></canvas>
+
+<br>
+
+<button onclick="download()">Descarregar imagem</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
